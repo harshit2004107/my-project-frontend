@@ -1,0 +1,14 @@
+/* Wobble Animation for the Rocket Emoji */
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  /* Apply the wobble animation to the rocket emoji */
+  .rocket-wiggle {
+    display: inline-block;
+    animation: wobble 1s ease infinite;
+  }
